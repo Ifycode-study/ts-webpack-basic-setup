@@ -1,2 +1,2 @@
 
-// typescript file
+console.log('hello');
