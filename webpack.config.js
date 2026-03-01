@@ -1,6 +1,7 @@
 const { resolve, join } = require('path');
 
 module.exports = {
+    devtool: 'eval-source-map', // Note 2: eval-source map is for development mode debugging through browser
     entry: './src/index.ts',
     module: {
         rules: [

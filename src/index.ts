@@ -11,5 +11,9 @@ form.addEventListener('submit', (e) => {
   console.log(data);
 });
 
+// Uncomment this code below when you want to practice debugging with eval source map as shown in video #6 at: https://www.youtube.com/watch?v=Gb9_yBWql24&list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC&index=7
+// const person: any = {};
+// console.log(person.speak());
+
 console.log('Hello .... kldfkd');
 console.log('World!')
