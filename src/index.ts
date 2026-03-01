@@ -15,5 +15,4 @@ form.addEventListener('submit', (e) => {
 // const person: any = {};
 // console.log(person.speak());
 
-console.log('Hello .... kldfkd');
-console.log('World!')
+// console.log('Hello World!');
