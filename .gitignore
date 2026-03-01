@@ -7,7 +7,7 @@ node_modules
 .npmrc
 
 # compiled output
-/dist
+# /dist
 /build
 
 # ignore compiled output in subfolders
