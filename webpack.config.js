@@ -1,6 +1,11 @@
 const { resolve, join } = require('path');
 
 module.exports = {
+    //-------------------------------------------
+    // webpack dev server needs mode set, to work
+    //-------------------------------------------
+    mode: 'development',
+    //--------------------------------------------
     devtool: 'eval-source-map', // Note 2: eval-source map is for development mode debugging through browser
     entry: './src/index.ts',
     module: {
@@ -29,9 +34,4 @@ module.exports = {
             directory: join(__dirname, 'dist'),
         },
     },
-    //-------------------------------------------
-    // webpack dev server needs mode set, to work
-    //-------------------------------------------
-    mode: 'development',
-    //--------------------------------------------
 };
