@@ -60,11 +60,14 @@ npm run web:build
 
 ### Using (eval) source-map debugging in the browser
 
-To test how this works:
+https://github.com/user-attachments/assets/67bcce71-d675-4c12-8cf8-f942ad93a31a
+
+Test how this works as shown in the video above:
 - Uncomment the broken "person" code in the `index.ts` file. 
 - Run the production mode's `web:build` script command to rebuild the `dist` folder files (for this debugging, it doesn't matter if your webpack config mode is set to production or not, it will work).
 - Open your app in the browser (i.e. spin up the app from the `dist` folder in the browser using VScode's live server).
 - `Inspect` with dev tool: Go to the `console` tab, and click on the `index.ts` link from the error displayed there. It will take you to the unbundled readable code which is in the `sources` tab.
 - Use the debugger feature in the `source` tab as shown by Net Ninja in video #6 at: https://www.youtube.com/watch?v=Gb9_yBWql24&list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC&index=7.
 
-> **TODO**: Make a short screen recorded video of how to use the debugger feature in the `source` tab, and add it here.
+
+
