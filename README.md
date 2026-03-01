@@ -23,11 +23,16 @@ Built with `node v24.0.2`.
 
 Clone this repository locally unto your computer. What ever script commands you are asked to run in this doc should be done from the root of this repository/folder. In your terminal, change directory into the root of this folder and run the commands below.
 
-Install dependencies (only the first time you run this project & any time your package.json dependencies have changed but not yet installed):
+#### Install dependencies
+
+> [!NOTE]  
+> Run the install script command only the first time you run this project & any other time your package.json dependencies have changed but not yet installed  ✅
 
 ````
 npm install
 ````
+
+#### Run app's dev server
 
 Run the app using webpack dev server's live page reload (access the app UI in the browser at localhost PORT `8080`):
 
