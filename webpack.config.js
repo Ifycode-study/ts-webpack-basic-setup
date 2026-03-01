@@ -11,6 +11,9 @@ module.exports = {
             },
         ],
     },
+    resolve: {
+        extensions: ['.ts', '.js'], // Note: This helps typescript to resolve import statements/syntax at the top of a .ts file.
+    },
     output: {
         // publicPath: 'dist', // commented out because using this didn't work for dev server. Fix(es) have been added towards the end of this file.
         filename: 'bundle.js',
