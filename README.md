@@ -26,7 +26,7 @@ Clone this repository locally unto your computer. What ever script commands you 
 #### Install dependencies
 
 > [!NOTE]  
-> Run the install script command only the first time you run this project & any other time your package.json dependencies have changed but not yet installed  ✅
+> Run the install script command only the first time you run this project & any other time your `package.json` dependencies have changed but not yet installed  ✅
 
 ````
 npm install
